@@ -1,10 +1,12 @@
 import React from "react";
 
+import StartLearning from "../StartLearning/StartLearning";
+
 const Home = () => {
   return (
-    <div>
-      <h1>I am from home component</h1>
-    </div>
+    <>
+      <StartLearning></StartLearning>
+    </>
   );
 };
 
