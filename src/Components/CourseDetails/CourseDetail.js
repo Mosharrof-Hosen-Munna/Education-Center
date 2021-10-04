@@ -1,10 +1,17 @@
 import React from "react";
+import { Container } from "react-bootstrap";
+import { useParams } from "react-router";
+import useCourse from "../../Hooks/useCourse";
+import useCourses from "../../Hooks/useCourses";
+import Course from "../Course/Course";
 
 const CourseDetail = () => {
+  const { id } = useParams();
+  const [course] = useCourse(id);
   return (
-    <div>
-      <h1>I am from course Details</h1>
-    </div>
+    <Container>
+      <Course course={course ? course : {}}></Course>;
+    </Container>
   );
 };
 

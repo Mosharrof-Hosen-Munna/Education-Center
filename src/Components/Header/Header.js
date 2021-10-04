@@ -33,7 +33,7 @@ const Header = () => {
                 activeClassName="active bg_light_green rounded"
                 to="/courses"
               >
-                Services
+                Courses
               </NavLink>
               <NavLink
                 exact

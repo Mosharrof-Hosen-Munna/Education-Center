@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white">
+    <footer className="bg-dark overflow-hidden text-white">
       <Container>
-        <Row className="g-4 py-4" md={2} xs={1}>
+        <Row className="g-4" md={2} xs={1}>
           <Col>
             <h3 className="text-center text-warning">Contact Us</h3>
             <div className="text-center py-3">

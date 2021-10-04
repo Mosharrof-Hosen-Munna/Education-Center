@@ -10,13 +10,15 @@ const Courses = (props) => {
         {props.children}
         <Row md={3} lg={3} xs={1} className="g-4">
           {props.courses?.map((course) => (
-            <Course course={course}></Course>
+            <Course course={course} key={course.id}></Course>
           ))}
         </Row>
         <div className="text-center">
-          <Link to="/courses" className="btn btn-primary btn-lg my-3">
-            See More Courses
-          </Link>
+          {props.detailsButton && (
+            <Link to="/courses" className="btn btn-primary btn-lg my-3">
+              See More Courses
+            </Link>
+          )}
         </div>
       </Container>
     </section>

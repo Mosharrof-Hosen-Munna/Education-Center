@@ -23,10 +23,9 @@ const Course = (props) => {
         <Card.Img variant="top" src={img} />
         <Card.Body>
           <Card.Title className="text-info">{courseName}</Card.Title>
-          <Card.Text>
-            <h6>Category: {category} </h6>
-            <h6>Start Date: {startDate}</h6>
-          </Card.Text>
+
+          <h6>Category: {category} </h6>
+          <h6>Start Date: {startDate}</h6>
         </Card.Body>
         <Card.Footer className="bg-success text-white">
           <div className="d-flex align-items-center justify-content-between">

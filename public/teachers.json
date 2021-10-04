@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "img": "http://education.themerex.net/wp-content/uploads/2015/01/jessie_russel_full-350x290.jpg",
+    "name": "Jessie Russel",
+    "category": "Marketing Coordinator",
+    "description": "BiographyMaurice Bates Royal L. Garff Presidential Chair in Marketing, Marketing Department, Department of"
+  },
+  {
+    "id": 2,
+    "img": "http://education.themerex.net/wp-content/uploads/2015/01/roy_daniels_full-350x290.jpg",
+    "name": "Roy Daniels",
+    "category": "Marketing Coordinator",
+    "description": "BiographyMaurice Bates Royal L. Garff Presidential Chair in Marketing, Marketing Department, Department of"
+  },
+  {
+    "id": 3,
+    "img": "http://education.themerex.net/wp-content/uploads/2015/01/maurice_bates_full-350x290.jpg",
+    "name": "Maurice Bates",
+    "category": "Marketing Coordinator",
+    "description": "BiographyMaurice Bates Royal L. Garff Presidential Chair in Marketing, Marketing Department, Department of"
+  }
+]

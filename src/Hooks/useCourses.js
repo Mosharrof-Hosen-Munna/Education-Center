@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const useCourses = () => {
-  const [courses, setCourses] = useState();
+  const [courses, setCourses] = useState([]);
 
   useEffect(() => {
     fetch("/courses.json")
