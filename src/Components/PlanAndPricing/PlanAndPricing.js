@@ -4,11 +4,12 @@ import PricingCard from "./PricingCard";
 
 const PlanAndPricing = () => {
   return (
-    <section>
+    <section className="py-4">
       <Container>
         <h1 className="fw-light text-center text-success my-4">
           Plan And Pricing
         </h1>
+        {/* show all pricing card */}
         <Row xs={1} md={3} lg={3} className="g-4">
           <PricingCard
             title="Trial"

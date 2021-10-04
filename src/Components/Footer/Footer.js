@@ -50,6 +50,9 @@ const Footer = () => {
             </ListGroup>
           </Col>
         </Row>
+        <p className="text-center">
+          All rights reserved by Mosharrof Hosen Munna 2021
+        </p>
       </Container>
     </footer>
   );

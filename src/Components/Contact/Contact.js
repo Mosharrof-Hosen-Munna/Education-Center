@@ -42,7 +42,9 @@ const Contact = () => {
                   placeholder="Enter your message"
                 ></textarea>
               </InputGroup>
-              <Button variant="success">Send Message!</Button>
+              <Button className="my-4 w-50 d-block mx-auto" variant="success">
+                Send Message!
+              </Button>
             </Col>
           </Row>
         </Container>

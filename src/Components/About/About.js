@@ -15,7 +15,7 @@ const About = () => {
           </h1>
           <Row md={3} lg={3} xs={1}>
             {teachers.map((teacher) => (
-              <Teacher teacher={teacher}></Teacher>
+              <Teacher key={teacher.id} teacher={teacher}></Teacher>
             ))}
           </Row>
         </Container>

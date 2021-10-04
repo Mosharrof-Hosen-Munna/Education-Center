@@ -2,7 +2,6 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { useParams } from "react-router";
 import useCourse from "../../Hooks/useCourse";
-import useCourses from "../../Hooks/useCourses";
 import Course from "../Course/Course";
 
 const CourseDetail = () => {
