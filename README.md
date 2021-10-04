@@ -1,4 +1,4 @@
-# Learn From Anywhere
+# Education Center
 
 _This application will provide all the Course and Teachers details which are involved with Teaching profession, providing their services all over the world through Learn From Anywhere platform_
 
