@@ -23,3 +23,4 @@ _Our goal is to provide eduction to everyone in every sector_
 - [x] npm install.
   > Once the node_modules installed -
 - [x] run: npm start to start the application
+      n
