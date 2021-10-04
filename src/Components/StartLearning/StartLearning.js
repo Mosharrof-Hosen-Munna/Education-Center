@@ -5,9 +5,13 @@ const StartLearning = () => {
   return (
     <section className="bg-success py-5">
       <Container>
-        <Row md={2} lg={2} sm={1} gap>
+        <Row md={2} lg={2} xs={1} className="g-4">
           <Col>
-            <img src={StartLearningLogo} alt="" />
+            <img
+              src={StartLearningLogo}
+              className="w-100"
+              alt="start learning logo"
+            />
           </Col>
           <Col>
             <h2 className="fst-italic text-white">
@@ -18,7 +22,7 @@ const StartLearning = () => {
               Our courses are built in partnership <br /> with technology
               leaders and are relevant to industry <br /> needs.
             </p>
-            <Button className="bg-white text-dark" size="lg">
+            <Button variant="info" size="lg">
               Start Learning Now
             </Button>
           </Col>

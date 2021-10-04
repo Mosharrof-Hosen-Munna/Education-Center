@@ -1,6 +1,9 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import About from "./Components/About/About";
+import allCourses from "./Components/allCourses/allCourses";
+import Courses from "./Components/Courses/Courses";
+import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import NotFound from "./Components/NotFound/NotFound";
@@ -17,6 +20,10 @@ function App() {
           <Route exact path="/about">
             <About></About>
           </Route>
+          <Route exact path="courses">
+            <allCourses></allCourses>
+          </Route>
+          <Route exact path="courses/course/:id"></Route>
           <Route exact path="/">
             <Home></Home>
           </Route>
@@ -24,6 +31,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );

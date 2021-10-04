@@ -23,7 +23,7 @@ const Header = () => {
                 exact
                 className="nav-link mx-1 fw-bold fs-6 text-white"
                 activeClassName="active bg_light_green rounded"
-                to="/"
+                to="/home"
               >
                 Home
               </NavLink>
@@ -31,7 +31,7 @@ const Header = () => {
                 exact
                 className="nav-link mx-1 fw-bold fs-6 text-white"
                 activeClassName="active bg_light_green rounded"
-                to="/services"
+                to="/courses"
               >
                 Services
               </NavLink>
